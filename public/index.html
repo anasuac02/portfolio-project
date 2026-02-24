@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Anasua</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- DARK MODE TOGGLE -->
+    <input type="checkbox" id="darkToggle" hidden>
+    <label for="darkToggle" class="dark-btn">🌓</label>
+
+    <!-- NAVBAR -->
+    <nav class="nav glass-nav">
+        <h2 class="logo">Anasua</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#bio">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="typing">Hi, I'm <span class="highlight">Anasua Chattaraj</span></h1>
+            <p class="subtitle">Aspiring Web Developer</p>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="bio" class="section fade-in">
+        <h2 class="title">About Me</h2>
+
+        <div class="bio-card glass">
+            <p>
+                I'm an aspiring web developer focused on building clean, modern and user-friendly digital experiences.
+                I enjoy exploring UI/UX trends, learning new technologies, and building functional full-stack applications.
+            </p>
+            <p>
+                My goal is to become a full-stack developer who can craft both beautiful interfaces 
+                and powerful backend systems.
+            </p>
+            <p>
+                When I am not coding or studying discrete mathematics, I enjoy immersing myself in Japanese language and culture, listening to Spotify, or jumping into Genshin Impact
+            </p>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section fade-in">
+        <h2 class="title">Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card glass">HTML</div>
+            <div class="skill-card glass">CSS</div>
+            <div class="skill-card glass">JavaScript</div>
+            <div class="skill-card glass">Node.js</div>
+            <div class="skill-card glass">MySQL</div>
+            <div class="skill-card glass">Git & GitHub</div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section fade-in">
+        <h2 class="title">Contact Me</h2>
+
+        <form id="contactForm" class="glass form-card">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Email Address" required>
+            <textarea id="message" placeholder="Message" required></textarea>
+            <button type="submit" class="btn" id="sendBtn">Send</button>
+        </form>
+
+        <p id="status"></p>
+    </section>
+
+    <footer class="footer">© 2026 Anasua | Portfolio Project</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
