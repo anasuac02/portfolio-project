@@ -75,6 +75,7 @@ portfolio-project/
 npm install
 
 2. Create database
+```
 CREATE DATABASE portfolio;
 USE portfolio;
 
@@ -85,3 +86,4 @@ CREATE TABLE contacts (
   message TEXT,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+```
