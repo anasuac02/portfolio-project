@@ -16,15 +16,17 @@ http://localhost:3000
 ---
 
 ## 📁 Project Structure
+```
 portfolio-project/
 │── server.js
 │── package.json
 │── package-lock.json
 │
 └── public/
-├── index.html
-├── style.css
-└── script.js
+    ├── index.html
+    ├── style.css
+    └── script.js
+```
 
 ---
 
