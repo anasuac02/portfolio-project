@@ -72,6 +72,7 @@ portfolio-project/
 
 ## 🛠 Setup
 1. Install dependencies
+
 npm install
 
 2. Create database
