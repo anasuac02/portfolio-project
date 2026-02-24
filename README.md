@@ -88,3 +88,7 @@ CREATE TABLE contacts (
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 ```
+
+3. Start server
+
+-node server.js
