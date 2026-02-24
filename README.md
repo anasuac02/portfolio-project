@@ -22,9 +22,9 @@ portfolio-project/
 │── package-lock.json
 │
 └── public/
-├── index.html
-├── style.css
-└── script.js
+    ├── index.html
+    ├── style.css
+    └── script.js
 
 ---
 
