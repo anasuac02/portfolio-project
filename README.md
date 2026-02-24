@@ -66,3 +66,22 @@ portfolio-project/
   "email": "john@gmail.com",
   "message": "Hello!"
 }
+```
+
+---
+
+## 🛠 Setup
+1. Install dependencies
+npm install
+
+2. Create database
+CREATE DATABASE portfolio;
+USE portfolio;
+
+CREATE TABLE contacts (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100),
+  email VARCHAR(150),
+  message TEXT,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
