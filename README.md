@@ -92,3 +92,5 @@ CREATE TABLE contacts (
 3. Start server
 
 - node server.js
+
+<img width="1837" height="952" alt="image" src="https://github.com/user-attachments/assets/9f7685df-32bb-4337-8c18-67b259d88705" />
