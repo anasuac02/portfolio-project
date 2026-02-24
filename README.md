@@ -91,4 +91,4 @@ CREATE TABLE contacts (
 
 3. Start server
 
--node server.js
+- node server.js
