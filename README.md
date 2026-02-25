@@ -94,3 +94,5 @@ CREATE TABLE contacts (
 - node server.js
 
 <img width="1837" height="952" alt="image" src="https://github.com/user-attachments/assets/9f7685df-32bb-4337-8c18-67b259d88705" />
+<img width="1787" height="823" alt="image" src="https://github.com/user-attachments/assets/8fed2906-0a66-405c-b5d9-6f1dce1e9058" />
+<img width="1901" height="174" alt="image" src="https://github.com/user-attachments/assets/cfa58120-916b-48c4-aa5f-edb2f5b3adc7" />
