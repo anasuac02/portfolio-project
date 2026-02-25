@@ -48,8 +48,7 @@ portfolio-project/
 - JavaScript  
 
 ### Backend:
-- Node.js  
-- Express.js  
+- Node.js
 
 ### Database:
 - MySQL  
