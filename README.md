@@ -1,6 +1,6 @@
 # 🚀 Portfolio Project – Full-Stack (Node.js + MySQL)
 
-This is a full-stack personal portfolio website built using **HTML, CSS, JavaScript, Node.js, Express, and MySQL**.  
+This is a full-stack personal portfolio website built using **HTML, CSS, JavaScript, Node.js and MySQL**.  
 It includes a **dynamic contact form** that stores messages directly into a MySQL database.
 
 ---
